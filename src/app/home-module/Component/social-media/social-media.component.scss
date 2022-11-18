@@ -1,0 +1,42 @@
+.media-card {
+    padding: 3%;
+}
+
+.twitter:hover .kuruvi-name,
+.facebook:hover .kuruvi-name,
+.instagram:hover .kuruvi-name,
+.youtube:hover .kuruvi-name,
+.pinterest:hover .kuruvi-name,
+.discord:hover .kuruvi-name {
+    color: blue !important;
+}
+
+.twitter:hover .kuruvi {
+    background-color: #1BA1F2 !important;
+    color: white !important;
+}
+
+.facebook:hover .f-logo {
+    background-color: #3B5997 !important;
+    color: white !important;
+}
+
+.instagram:hover .ins {
+    background-color: #C231A1 !important;
+    color: white !important;
+}
+
+.youtube:hover .play {
+    background-color: #ED4141 !important;
+    color: white !important;
+}
+
+.pinterest:hover .p-logo {
+    background-color: #E60022 !important;
+    color: white !important;
+}
+
+.discord:hover .mask {
+    background-color: #7289da !important;
+    color: white !important;
+}

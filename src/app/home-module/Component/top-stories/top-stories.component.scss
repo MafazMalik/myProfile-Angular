@@ -1,0 +1,174 @@
+.top-stories {
+    margin-top: 6.14% !important;
+}
+
+.top-stories-left-gap {
+    margin-left: 4%;
+    margin-top: 6% !important;
+}
+
+.ts-btn-travel,
+.ts-btn-lifestyle,
+.ts-btn-acessory,
+.ts-btn-gadgets {
+    margin-top: 0.8% !important;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    padding-top: 0.8% !important;
+    padding-bottom: 0.8% !important;
+    width: 9% !important;
+    font-weight: 800 !important;
+    font-size: 18px !important;
+    border-width: 2px !important;
+}
+
+.ts-btn-travel:focus,
+.ts-btn-lifestyle:focus,
+.ts-btn-acessory:focus,
+.ts-btn-gadgets:focus {
+    border: none !important;
+    color: gray !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+}
+
+.rolling {
+    font-weight: 600;
+    position: absolute;
+    margin-top: 1.5%;
+}
+
+.rolling:hover {
+    color: red;
+}
+
+.head-policy,
+.head-app {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.policy,
+.app {
+    margin-top: 3.5% !important;
+    margin-left: 0.1% !important;
+}
+
+.policy-content,
+.policy-content1 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 2.5%;
+}
+
+.policy:hover .tik-tok-img,
+.app:hover .tik-tok-img,
+.girl-pen-div:hover .girl-pen {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.head-policy:hover,
+.head-app:hover {
+    transform: rotatex(360deg);
+    font-weight: 600;
+}
+
+.u-line {
+    display: inline-block;
+}
+
+.u-line::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: 300ms;
+    margin-top: -2% !important;
+}
+
+.policy:hover .u-line::after,
+.app:hover .u-line::after {
+    width: 100%;
+}
+
+.tik-tok-img {
+    margin-left: -12px;
+    transition: 0.5s;
+}
+
+.girl-pen-div {
+    margin-top: 1.5% !important;
+    margin-bottom: 6% !important;
+    width: 50% !important;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.girl-pen {
+    margin-left: -2%;
+    transition: 0.5s;
+}
+
+.girl-pen-content1,
+.girl-pen-content2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.girl-pen-content {
+    position: absolute;
+    width: 100%;
+    margin-top: -8%;
+    margin-left: 2%;
+}
+
+
+.gradient-girl-pen {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -17.8% !important;
+    margin-left: -0.9%;
+    opacity: 75%;
+    width: 675px !important;
+    height: 240px;
+    border-radius: 0 0 10px 10px;
+}
+
+.business-head {
+    position: absolute;
+    margin-top: -10%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 2%;
+    transition: 0.5s;
+}
+
+.business-head:hover {
+    transform: rotatex(360deg);
+    font-weight: 600;
+    color: blue !important;
+}
+
+.u-line-- {
+    display: inline-block;
+}
+
+.u-line--::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: white;
+    transition: 300ms;
+    margin-top: -1% !important;
+}
+
+.girl-pen-div:hover .u-line--::after {
+    width: 100%;
+}

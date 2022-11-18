@@ -1,0 +1,282 @@
+.body-image {
+    margin-top: 6% !important;
+    margin-left: -0.1% !important;
+}
+
+.body-image1 {
+    margin-left: 9.3%;
+    width: 530px !important;
+    height: 403px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.body-image1:hover .cap-girl {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cap-girl {
+    height: 403px;
+    width: 530px;
+    margin-left: -2.5%;
+    transition: 0.5s;
+}
+
+.gradient {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -14.8%;
+    margin-left: -1%;
+    opacity: 70%;
+    width: 530px;
+    height: 200px;
+    border-radius: 0 0 10px 10px;
+}
+
+.img-feature {
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 2.08%;
+    margin-top: -12.8%;
+    text-shadow: 0 0 5px black;
+    transition: 0.5s;
+}
+
+.img-feature:hover {
+    transform: rotatex(360deg);
+    font-weight: 600;
+    color: blue;
+}
+
+.parent-fashion-potrait {
+    margin-left: 5.5%;
+}
+
+.fashion-potrait {
+    position: absolute;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: -10.98% !important;
+}
+
+.fashion-potrait1 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: -8.4% !important;
+}
+
+.fashion-potrait2 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: -5.9% !important;
+}
+
+.body-line1 {
+    display: inline-block;
+}
+
+.body-line1::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white !important;
+    transition: 300ms;
+    margin-top: -1% !important;
+}
+
+.body-image1:hover .body-line1::after,
+.body-image2:hover .body-line1::after,
+.body-image3:hover .body-line1::after,
+.body-image4:hover .body-line1::after,
+.body-image5:hover .body-line1::after {
+    width: 100%;
+}
+
+.girl-beach {
+    height: 192px;
+    width: 253px;
+    margin-left: -5%;
+    transition: 0.5s;
+}
+
+.body-image2:hover .girl-beach,
+.body-image3:hover .cap-girl-beach,
+.body-image4:hover .boat-man,
+.body-image5:hover .watch-hand {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.body-image2-travel {
+    position: absolute;
+    margin-top: -10.3%;
+    margin-left: 1.25%;
+}
+
+.body-image3-travel {
+    position: absolute;
+    margin-top: -8.8%;
+    margin-left: 1.28%;
+}
+
+.body-image4-travel {
+    position: absolute;
+    margin-top: -8.65%;
+    margin-left: 1.28%;
+}
+
+.body-image5-travel {
+    position: absolute;
+    margin-top: -10.3%;
+    margin-left: 1.28%;
+}
+
+.gradient1 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -17.8% !important;
+    margin-left: -0.9%;
+    opacity: 75%;
+    width: 254px !important;
+    height: 240px;
+    border-radius: 0 0 10px 10px;
+}
+
+.gradient1-1 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -17.8% !important;
+    margin-left: -1%;
+    opacity: 75%;
+    width: 254px !important;
+    height: 240px;
+    border-radius: 0 0 10px 10px;
+}
+
+.gradient2 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -17.8% !important;
+    margin-left: -0.9%;
+    opacity: 80%;
+    width: 254px !important;
+    height: 240px;
+    border-radius: 0 0 10px 10px;
+}
+
+.gradient2-1 {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -17.8% !important;
+    margin-left: -1%;
+    opacity: 80%;
+    width: 254px !important;
+    height: 240px;
+    border-radius: 0 0 10px 10px;
+}
+
+.travel {
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.travel:hover {
+    transform: rotatex(360deg);
+    font-weight: 600;
+    color: blue;
+}
+
+.body-image2 {
+    height: 192px;
+    width: 253px !important;
+    margin-left: 2.5%;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.body-image3 {
+    height: 192px;
+    width: 253px !important;
+    margin-left: 3.7%;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.body-image4 {
+    height: 192px;
+    width: 253px !important;
+    margin-left: 2.5%;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.body-image5 {
+    height: 192px;
+    width: 253px !important;
+    margin-left: 3.7%;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.body-image2-content {
+    position: absolute;
+    margin-top: -8.3%;
+    margin-left: 1.25%;
+}
+
+.body-image3-content {
+    position: absolute;
+    margin-top: -6.79%;
+    margin-left: 1.3%;
+}
+
+.body-image4-content {
+    position: absolute;
+    margin-top: -6.7%;
+    margin-left: 1.25%;
+}
+
+.body-image5-content {
+    position: absolute;
+    margin-top: -8.3%;
+    margin-left: 1.3%;
+}
+
+.div-content {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.cap-girl-beach {
+    height: 190px;
+    width: 253px;
+    margin-left: -5.2%;
+    transition: 0.5s;
+}
+
+.boat-man {
+    height: 192px;
+    width: 253px;
+    margin-left: -5%;
+    transition: 0.5s;
+}
+
+.watch-hand {
+    height: 192px;
+    width: 253px;
+    margin-left: -5.2%;
+    transition: 0.5s;
+}

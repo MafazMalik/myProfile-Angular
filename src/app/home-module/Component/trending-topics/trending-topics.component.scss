@@ -1,0 +1,49 @@
+.trending-topics {
+    margin-left: 3% !important;
+    margin-top: 7% !important;
+    margin-bottom: 5% !important;
+}
+
+.rolling-tt {
+    font-weight: 600;
+    position: absolute;
+    margin-left: 82%;
+}
+
+.rolling-tt:hover {
+    color: red;
+}
+
+.img-shoe-div {
+    height: 170px !important;
+    width: 180px !important;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 2%;
+}
+
+.img-shoe-div:hover .img-shoe {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.names {
+    position: absolute;
+    margin-top: -3.5%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.gradient-tt {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    margin-top: -9%;
+    margin-left: -1%;
+    opacity: 70%;
+    width: 182px;
+    height: 123px;
+    border-radius: 0 0 10px 10px;
+}

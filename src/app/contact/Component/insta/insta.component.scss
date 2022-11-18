@@ -1,0 +1,51 @@
+.instagram-head {
+    margin-left: 3% !important;
+    margin-top: 3% !important;
+}
+
+.lambogni-div {
+    background-color: #E60022;
+    width: 14.8% !important;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 1.5%;
+}
+
+.lambogni-img {
+    margin-left: -7.5%;
+    transition: 0.5s;
+}
+
+.lambogni-div:hover .lambogni-img {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.lambogni-div:hover .insta {
+    position: absolute;
+    font-size: 100%;
+    margin-top: -9%;
+    margin-left: 4%;
+    padding: 0.8%;
+    background-color: #f0f2f5;
+    border-radius: 50%;
+    color: grey;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.insta {
+    position: absolute;
+    font-size: 0%;
+    margin-top: -9%;
+    margin-left: 4%;
+    padding: 0%;
+    transition: 0.2s;
+}
+
+.insta:hover {
+    background-color: #7289da !important;
+    color: white !important;
+}

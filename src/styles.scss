@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #f0f2f5 !important;
+    font-family: 'Red Hat Display', sans-serif !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.txtclr:hover {
+    color: #3858f6 !important;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.img-row-tt {
+    margin-top: 2% !important;
+}
+
+.img-shoe {
+    height: 170px;
+    width: 183px;
+    margin-left: -8% !important;
+    transition: 0.5s;
+}

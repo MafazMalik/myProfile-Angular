@@ -1,0 +1,89 @@
+.footer {
+    margin-top: 6% !important;
+}
+
+.footer-padding {
+    margin-top: 4% !important;
+    margin-left: 4% !important;
+}
+
+.follow-us {
+    font-weight: 900;
+}
+
+.footer-icon {
+    background-color: #f0f2f5;
+    padding: 1.5%;
+    margin-top: -1%;
+    margin-left: -12%;
+    border-radius: 50%;
+    font-size: 80%;
+}
+
+.footer-icon1 {
+    background-color: #f0f2f5;
+    padding: 1.5%;
+    margin-top: -1%;
+    margin-left: 0.9%;
+    border-radius: 50%;
+    font-size: 80%;
+}
+
+.footer-icon:hover,
+.footer-icon1:hover {
+    background-color: #7289da !important;
+    color: white !important;
+}
+
+.footer-padding hr {
+    width: 93%;
+}
+
+.footer img {
+    height: 35px;
+    width: 140px;
+}
+
+.footer-a {
+    position: absolute;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 0.5%;
+}
+
+.footer-a:hover {
+    transform: rotatex(360deg);
+    color: blue !important;
+    background: none;
+}
+
+.footer-ul {
+    list-style-type: none;
+}
+
+.footer-contact {
+    margin-left: -4%;
+}
+
+.footer-term {
+    margin-left: 5%;
+}
+
+.footer-ad {
+    margin-left: 14.5%;
+}
+
+.footer-advertise {
+    margin-left: 23%;
+}
+
+.footer-blogar {
+    margin-left: 35%;
+}
+
+.copyright {
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 60%;
+    font-size: 14px;
+}
